@@ -4,8 +4,11 @@ def binary_search(arr,target):
     high = len(arr) - 1
     mid = 0
     count = 1
+    if target < arr[0]:
+            return (count, arr[0])
+    elif target > arr[-1]:
+            return (count, arr[-1])
     while low <= high:
-        
         count += 1
         mid = (high + low) // 2
         
@@ -21,4 +24,4 @@ def binary_search(arr,target):
    
 
 numbers = [1.2, 2.0, 3.5, 4.1, 5.7, 6.3, 7.8, 8.2, 9.4, 10.0]
-print(binary_search(numbers, 3.6))
+print(binary_search(numbers, 1.3))
