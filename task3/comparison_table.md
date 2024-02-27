@@ -1,3 +1,5 @@
+<!-- ctrl + shift + v - to see preview of this file -->
+
 # Compare algorithms
 
 | Algorithm                 | Article 1 | Article 2 | Article 1 not found | Article 2 not found |
